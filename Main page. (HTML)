@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoru Cafe</title>
+    <!-- link ke font awesome for inserting icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- link ke google fonts buat font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+    
+
+    <!-- link ke css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+     <header>
+        <div class="container header-container">    
+            <a href="#" class="logo">
+                <!-- Masukkin logo cafe disini -->
+                 <i class="fa-solid fa-mug-hot logo-icon"></i>
+                <div class="logo-text">Yoru <span>Cafe</span> </div>
+            </a>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#Product">Product</li>
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-buttons">
+                <a href="#" class="btn btn-secondary">Sign In</a>
+                <a href="#" class="btn btn-primary">Order Online</a>
+                </div>
+            </div>
+     </header>
+
+     <!-- hero section -->
+     <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-subtitle">
+                    <i class="fa-solid fa-seedling"></i>  
+                    Ethically Sourced Beans
+                </div>
+                <h1 class="hero-title">Yoru Coffee<br><span>Dibuat Sepenuh Hati</span></h1>
+                <p class="hero-text">Yoru Cafe adalah kafe bernuansa Jepang yang menghadirkan suasana hangat, tenang, dan nyaman untuk menemani setiap momenmu.</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Kunjungi Menu Kami</a>
+                    <a href="#" class="btn btn-secondary">Kunjungi Kafe Kami!</a>
+                </div>
+            </div>
+             <img src="1.jpg" alt="" width="370px">
+        </div>
+        </section>
+ 
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Menu Unggulan</div>
+                <h2 class="section-title">Kopi Khas Yoru Cafe</h2>
+                <p class="section-desc">Temukan berbagai pilihan kopi khas Yoru Cafe yang dijamin memuaskan lidah Anda.</p>
+            </div>
+        </div>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="2.jpg" alt="Moonveil">
+                </div>
+                <div class="product-info">
+                    <div class="product-tag">Best Seller</div>
+                    <h3 class="product-title">Moonveil</h3>
+                    <p class="product-desc">Perpaduan espresso premium dengan susu creamy dan foam lembut, menciptakan rasa hangat yang halus di setiap tegukan.</p>
+                    <div class="product-footer">
+                        <div class="product-price">Rp 25.000</div>
+                        <div class="Rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="3.jpg" alt="Night Whisper" width="736px" height="736px">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Night Whisper</h3>
+                        <p class="product-desc">Sentuhan mocha dingin dengan rasa cokelat yang pekat dan creamy, dipadukan espresso lembut untuk menciptakan rasa manis yang hangat meski disajikan dingin.</p>
+                        <div product-footer>
+                            <div class="product-price">Rp 30.000</div>
+                            <div class="Rating">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="4.jpg" alt="Shadow Roast" width="736px" height="736px">
+                </div>
+                <div class="product-info">
+                    <div class="product-tag">New Arrival</div>
+                    <h3 class="product-title">Shadow Roast</h3>
+                    <p class="product-desc">Kopi hitam pekat dengan aroma yang kuat dan rasa yang kaya, memberikan pengalaman kopi yang intens dan memuaskan bagi para penikmat kopi sejati.</p>
+                    <div class="product-footer">
+                        <div class="product-price">Rp 20.000</div>
+                        <div class="Rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+        <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Tentang Yoru Cafe</h3>
+                    <p style="color: var(--coffee-accent); margin-bottom: 20px;">Menyajikan rasa, suasana, dan kehangatan dalam setiap malam yang kamu habiskan di Yoru Cafe.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Menu</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fa-solid fa-location-dot"></i> Jl. Kenangan No. 123, Surabaya</li>
+                        <li><i class="fa-solid fa-phone"></i> +62 812-3456-7890</li>
+                        <li><i class="fa-solid fa-envelope"></i> YoruCafe@gmail.com</li>
+                        <li><i class="fa-solid fa-clock"></i> Sen-Min: 08:00 - 23:00 WIB</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                &copy; 2025 Yoru Cafe. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- link ke javascript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
